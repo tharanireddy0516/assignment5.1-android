@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- fromAlpha Starts alpha value for the animation
+         toAlpha ends alpha value for the animation
+         An interpolator defines the rate of change of an animation.
+         This allows the basic animation effects
+         repeatMode. Defines the animation behavior when it reaches the end and the repeat count is greater than 0 or infinite-->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="600"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"/>
+     <!--this file shows properties of blinking effect
+        using deep link the we can take the required content page directly-->
+</set>

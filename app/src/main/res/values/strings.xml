@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BlinkingEffect</string>
+    <string name="animation">This Is fadein animation</string>
+    <string name="start_animation">Start Animation</string>
+</resources>
